@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "src/*"
+    "src/01_welcome/01_syntax",
 ]
 
 resolver = "2"
