@@ -1,11 +1,11 @@
-fn main(){
+fn main() {
     // This is a single-line comment
     // Followed by another single-line comment
 
     let content = greeting();
 
-    println!("{}",content);
-    println!("{}",greet("hogeta"))
+    println!("{}", content);
+    println!("{}", greet("hogeta"))
 }
 
 // `fn` <function_name> ( <input params> ) -> <return_type> { <body> }
@@ -21,7 +21,7 @@ fn greet(name: &str) -> String {
 }
 
 #[cfg(test)]
-mod tests{
+mod tests {
     use crate::greeting;
 
     #[test]
