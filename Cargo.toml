@@ -1,10 +1,10 @@
 [workspace]
-members = [
-    "src/01_welcome/*",
-    "src/02_a_basic_calculator/*",
-]
+members = ["src/01_welcome/*", "src/02_a_basic_calculator/*"]
 
 resolver = "2"
 
 [workspace.dependencies]
 rstest = "0.22.0"
+
+# [profile.dev]
+# overflow-checks = false
