@@ -1,10 +1,16 @@
 [workspace]
-members = ["src/01_welcome/*", "src/02_a_basic_calculator/*"]
+members = [
+    "helpers/common",
+    "src/01_welcome/*",
+    "src/02_a_basic_calculator/*",
+    "src/03_ticket_v1/*",
+]
 
 resolver = "2"
 
 [workspace.dependencies]
 rstest = "0.22.0"
+common = { path = "helpers/common" }
 
 # [profile.dev]
 # overflow-checks = false

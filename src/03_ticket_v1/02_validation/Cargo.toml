@@ -1,8 +1,9 @@
 [package]
-name = "saturating_arithmetic"
+name = "validation"
 version = "0.1.0"
 publish = false
 edition = "2021"
 
 [dependencies]
 rstest = { workspace = true }
+common = { workspace = true }
