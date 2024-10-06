@@ -1,6 +1,6 @@
 fn compute(a: u32, b: u32) -> u32 {
     // TODO: change the line below to fix the compiler error and make the tests pass.
-    a + b * 1_00__0_00_0u32
+    a + b * 1_000_000_u32
 }
 
 fn main() {
