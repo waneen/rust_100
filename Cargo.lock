@@ -42,6 +42,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "derive"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
+]
+
+[[package]]
 name = "destructors"
 version = "0.1.0"
 dependencies = [
@@ -200,6 +208,14 @@ name = "integers"
 version = "0.1.0"
 
 [[package]]
+name = "intro_04"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
+]
+
+[[package]]
 name = "loops_for"
 version = "0.1.0"
 dependencies = [
@@ -221,6 +237,22 @@ checksum = "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
 
 [[package]]
 name = "modules"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
+]
+
+[[package]]
+name = "operator_overloading"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
+]
+
+[[package]]
+name = "orphan_rule"
 version = "0.1.0"
 dependencies = [
  "common",
@@ -460,6 +492,14 @@ dependencies = [
  "indexmap",
  "toml_datetime",
  "winnow",
+]
+
+[[package]]
+name = "traits"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
 ]
 
 [[package]]

@@ -4,6 +4,7 @@ members = [
     "src/01_welcome/*",
     "src/02_a_basic_calculator/*",
     "src/03_ticket_v1/*",
+    "src/04_traits/*",
 ]
 
 resolver = "2"
