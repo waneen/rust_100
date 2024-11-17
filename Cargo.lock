@@ -42,6 +42,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "deref"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
+]
+
+[[package]]
 name = "derive"
 version = "0.1.0"
 dependencies = [
@@ -449,6 +457,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "string_slices"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
+]
+
+[[package]]
 name = "structs"
 version = "0.1.0"
 dependencies = [
@@ -492,6 +508,14 @@ dependencies = [
  "indexmap",
  "toml_datetime",
  "winnow",
+]
+
+[[package]]
+name = "trait_bounds"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
 ]
 
 [[package]]
