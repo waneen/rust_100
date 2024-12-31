@@ -12,6 +12,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "associated_vs_generic_types"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
+]
+
+[[package]]
 name = "autocfg"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -31,6 +39,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "clone"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
+]
+
+[[package]]
 name = "common"
 version = "0.1.0"
 
@@ -38,6 +54,14 @@ version = "0.1.0"
 name = "conversions_as_casting"
 version = "0.1.0"
 dependencies = [
+ "rstest",
+]
+
+[[package]]
+name = "copy"
+version = "0.1.0"
+dependencies = [
+ "common",
  "rstest",
 ]
 
@@ -66,6 +90,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "drop"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
+]
+
+[[package]]
 name = "encapsulation"
 version = "0.1.0"
 dependencies = [
@@ -83,6 +115,14 @@ checksum = "5443807d6dff69373d433ab9ef5378ad8df50ca6298caf15de6e52e24aaf54d5"
 name = "fractorial"
 version = "0.1.0"
 dependencies = [
+ "rstest",
+]
+
+[[package]]
+name = "from"
+version = "0.1.0"
+dependencies = [
+ "common",
  "rstest",
 ]
 
@@ -276,6 +316,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "outro_04"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
+]
+
+[[package]]
 name = "overflow_and_under_flow"
 version = "0.1.0"
 dependencies = [
@@ -433,6 +481,14 @@ checksum = "61697e0a1c7e512e84a621326239844a24d8207b4669b41bc18b32ea5cbf988b"
 
 [[package]]
 name = "setters"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "rstest",
+]
+
+[[package]]
+name = "sized"
 version = "0.1.0"
 dependencies = [
  "common",
